@@ -9,6 +9,10 @@ btnArray.forEach(btn =>{
             string = eval(string);
             input.val(string)
         }
+        else if (e.target.innerHTML === "C"){
+            string = "";
+            input.val(string)
+        }
 
     })
 })

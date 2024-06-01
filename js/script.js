@@ -23,8 +23,8 @@ btnArray.forEach(btn =>{
         }
         else {
             string += e.target.innerHTML;
-            input.val(string)
+            input.val(string);
         }
 
-    })
+    });
 })

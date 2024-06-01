@@ -13,6 +13,10 @@ btnArray.forEach(btn =>{
             string = "";
             input.val(string)
         }
+        else if (e.target.innerHTML ==='Del'){
+            string = string.substring(0,string.length-1);
+            input.val(string)
+        }
 
     })
 })

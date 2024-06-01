@@ -17,6 +17,10 @@ btnArray.forEach(btn =>{
             string = string.substring(0,string.length-1);
             input.val(string)
         }
+        else if (e.target.innerHTML === '%'){
+            string = (parseInt(string)/100)
+            input.val(string)
+        }
 
     })
 })

@@ -21,6 +21,10 @@ btnArray.forEach(btn =>{
             string = (parseInt(string)/100)
             input.val(string)
         }
+        else {
+            string += e.target.innerHTML;
+            input.val(string)
+        }
 
     })
 })
